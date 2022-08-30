@@ -34,7 +34,7 @@ for (let i = 1; i < Number(data[0]); i++) {
                 });
                 ans.push('OK');
                 break;
-            } 
+            }
             let isNewDay = true;
             for (const j in schedule) {
                 const isDay = schedule[j].day === day;

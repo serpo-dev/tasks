@@ -24,7 +24,7 @@ function WaterRest(array) {
                     };
                     volume += volume + countFromLeft * (Math.min(left, array[i] + maxHeight) - array[i - 1]);
                 };
-            }
+            } 
             volume = volume + countFromLeft * (Math.min(left, array[i]) - array[i - 1]);
             total += volume;
             countFromLeft = 0;
