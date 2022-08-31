@@ -16,6 +16,6 @@ for (const i in classNames) {
 const result = uniqClassNames.sort((a, b) => classNamesCount[b] - classNamesCount[a]);
 
 //  or without declaring uniqClassNames:
-//  const result = Object.keys(uniqClassNames).sort((a, b) => classNamesCount[b] - classNamesCount[a]);
+//  const result = Object.keys(classNamesCount).sort((a, b) => classNamesCount[b] - classNamesCount[a]);
 
 console.log(result);
